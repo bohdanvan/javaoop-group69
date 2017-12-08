@@ -7,6 +7,8 @@ Prog.kiev.ua. Java OOP. Группа 69
 
 [Java OOP. Богдан. Группа 69. Лекция 2 (05.12.2017)](https://prog.kiev.ua/forum/index.php/topic,3316.0.html)
 
+[Java OOP. Богдан. Группа 69. Лекция 3 (07.12.2017)](https://prog.kiev.ua/forum/index.php/topic,3325.0.html)
+
 ## Видео/аудио лекций
 
 [Видеозапись лекций](https://mega.nz/#F!fI9ACBqB)
@@ -16,6 +18,9 @@ Prog.kiev.ua. Java OOP. Группа 69
 ## Курсовой проект
 
 [Задание на курсовой проект](https://docs.google.com/document/d/1BD_RtdtKI4MZylI_UGOGdE8_d2CZTZnfVCWwirvSVbU/edit)
+
+[Распределение тем на курсовой проект](https://docs.google.com/spreadsheets/d/165Xg8nBX090FmvoCrgwPp8OOHsI5f5T4u7l7ZNCSIqg/edit?usp=sharing)
+
 
 ## Примеры решения задач
 
