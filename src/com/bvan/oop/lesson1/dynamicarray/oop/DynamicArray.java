@@ -8,8 +8,8 @@ import java.util.Arrays;
 public class DynamicArray {
 
     // fields
-    int[] elems;
-    int size = 0;
+    private int[] elems;
+    private int size = 0;
 
     public DynamicArray(int initSize) {
         elems = new int[initSize];
