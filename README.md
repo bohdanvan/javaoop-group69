@@ -13,6 +13,8 @@ Prog.kiev.ua. Java OOP. Группа 69
 
 [Java OOP. Богдан. Группа 69. Лекция 5 (14.12.2017)](https://prog.kiev.ua/forum/index.php/topic,3338.0.html)
 
+[Java OOP. Богдан. Группа 69. Лекция 6 (26.12.2017)](https://prog.kiev.ua/forum/index.php/topic,3355.0.html)
+
 ## Видео/аудио лекций
 
 [Видеозапись лекций](https://mega.nz/#F!fI9ACBqB)
