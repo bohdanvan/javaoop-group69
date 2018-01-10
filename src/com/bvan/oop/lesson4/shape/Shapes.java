@@ -1,12 +1,15 @@
 package com.bvan.oop.lesson4.shape;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
 import java.util.List;
 
 /**
  * @author bvanchuhov
  */
-public class Shapes {
+public class Shapes implements Iterable<Shape> {
 
     private final List<Shape> shapes = new ArrayList<>();
 
@@ -20,5 +23,14 @@ public class Shapes {
             res += shape.getArea();
         }
         return res;
+    }
+
+    public void sort(Comparator<Shape> shapeComparator) {
+        Collections.sort(shapes, shapeComparator);
+    }
+
+    @Override
+    public Iterator<Shape> iterator() {
+        return shapes.iterator();
     }
 }
