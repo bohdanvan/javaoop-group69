@@ -1,4 +1,4 @@
-package com.bvan.oop.lesson11.multithreading;
+package com.bvan.oop.lessons11_12.multithreading;
 
 /**
  * @author bvanchuhov

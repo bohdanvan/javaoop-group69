@@ -1,9 +1,9 @@
-package com.bvan.oop.lesson11.multithreading;
+package com.bvan.oop.lessons11_12.multithreading;
 
 /**
  * @author bvanchuhov
  */
-public class BarWithMultithreading {
+public class BarWithJoin {
 
     public static void main(String[] args) {
         ThreadUtils.println("Bar is opened");
@@ -12,11 +12,12 @@ public class BarWithMultithreading {
         drinkerThread.start();
 
         try {
-            drinkerThread.join();
+            drinkerThread.join(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         ThreadUtils.println("Bar is closed");
+
     }
 }

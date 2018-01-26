@@ -1,8 +1,7 @@
-package com.bvan.oop.lesson11.multithreading;
+package com.bvan.oop.lessons11_12.multithreading;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author bvanchuhov
@@ -19,13 +18,7 @@ public class BarWithExecutorService {
             Runnable drinker = new Drinker(drinkerId);
             executor.submit(drinker);
         }
-        executor.shutdown();
-
-        try {
-            executor.awaitTermination(10, TimeUnit.SECONDS);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        executor.shutdownNow();
 
         ThreadUtils.println("Bar is closed");
     }
